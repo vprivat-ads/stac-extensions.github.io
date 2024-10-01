@@ -61,7 +61,8 @@ Below you can also find a list of extensions grouped by [maturity](#grouped-by-m
 | [Language (I18N)](https://github.com/stac-extensions/language) | - | Catalog, Collection, Item | Proposal | 1.0.0 | Fields and recommendations around making multi-lingual STAC catalogs available.  |
 | [ML AOI](https://github.com/stac-extensions/ml-aoi) | ml-aoi | Asset, Collection, Item, Links | Proposal | 0.2.0 | An Item and Collection extension to provide labeled training data for machine learning models. |
 | [ML Model](https://github.com/stac-extensions/ml-model) | ml-model | Collection, Item | Proposal | 1.0.0 | An Item and Collection extension to describe machine learning (ML) models that operate on Earth observation data. |
-| [Machine Learning Model Extension](https://github.com/crim-ca/mlm-extension)* | mlm | Asset, Collection, Item, Links | Pilot | 1.3.0 | Machine Learning Model STAC Extension  |
+| [Machine Learning Model Extension](https://github.com/stac-extensions/mlm) | mlm | Asset, Collection, Item, Links | Pilot | 1.3.0 | STAC Machine Learning Model (MLM) Extension to describe ML models, their training details, and inference runtime requirements. |
+| [Machine Learning Model Extension](https://github.com/crim-ca/mlm-extension)* | mlm | Asset, Collection, Item, Links | Pilot | 1.3.0 | Machine Learning Model STAC Extension (archive, see https://github.com/stac-extensions/mlm) |
 | [Military Grid Reference System](https://github.com/stac-extensions/mgrs) | mgrs | Item | Pilot | 1.0.0 | MGRS extension that provides information about the latitude band, grid square and UTM zone. |
 | [NOAA Geostationary Operational Environmental Satellite (GOES)](https://github.com/stac-extensions/goes) | goes | Collection, Item | Pilot | 1.0.0 | STAC Extension for NOAA GOES (Geostationary Operational Environmental Satellite) products |
 | [NOAA MRMS QPE](https://github.com/stac-extensions/noaa-mrms-qpe) | noaa_mrms_qpe | Collection, Item | Pilot | 1.0.0 | STAC Extension for NOAA MRMS QPE (Multi-Radar Multi-Sensor Quantitative Precipitation Estimation) products |
@@ -102,8 +103,8 @@ Below you can also find a list of extensions grouped by [maturity](#grouped-by-m
 | [Web Map Links](https://github.com/stac-extensions/web-map-links) | none, but each relat | Catalog, Collection, Item | Proposal | 1.2.0 | Allows to provide links to web maps for visualization purposes |
 | [xarray Assets](https://github.com/stac-extensions/xarray-assets) | xarray | Asset | Pilot | 1.0.0 | This extension helps users open STAC Assets with xarray. It gives a place for catalog maintainers to specify various required or recommended options. |
 
-* **Last updated:** Sep 30 2024, 01:14 
-* **Count:** 76
+* **Last updated:** Oct 01 2024, 01:19 
+* **Count:** 77
 
 ### Grouped by maturity
 
@@ -153,6 +154,8 @@ Below you can also find a list of extensions grouped by [maturity](#grouped-by-m
 * [Grid](https://github.com/stac-extensions/grid)
 
 * [Label](https://github.com/stac-extensions/label)
+
+* [Machine Learning Model Extension](https://github.com/stac-extensions/mlm)
 
 * [Machine Learning Model Extension](https://github.com/crim-ca/mlm-extension)*
 
