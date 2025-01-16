@@ -36,7 +36,7 @@ Below you can also find a list of extensions grouped by [maturity](#grouped-by-m
 | [CARD4L (Optical and SAR)](https://github.com/stac-extensions/card4l) | card4l | Item | Pilot | 0.1.0 | Describes how to comply to the CEOS CARD4L specifications (SAR and Optical) with STAC |
 | [CEOS-ARD](https://github.com/stac-extensions/ceos-ard) | ceosard | Collection, Item | Proposal | 0.2.0 | Describes how to comply to the CEOS-ARD specifications with STAC. Supersedes the STAC CARD4L extension. |
 | [CF](https://github.com/stac-extensions/cf) | cf | Collection, Item | Proposal | 0.2.0 | Allows to provide the Standard Name Table based on the CF metadata convention. |
-| [CMIP6](https://github.com/stac-extensions/cmip6) | cmip6 | Item | *WIP* | **Unreleased** | None |
+| [CMIP6](https://github.com/stac-extensions/cmip6) | cmip6 | Item | Proposal | 1.0.0 | None |
 | [Camera](https://github.com/linz/stac/tree/master/extensions/camera)* | camera | Collection, Item | *WIP* | *Unknown* | Camera related metadata, such as focal length and sequence number. Especially useful for aerial imagery surveys. |
 | [Classification](https://github.com/stac-extensions/classification) | classification | Collection, Item | Pilot | 2.0.0 | Describes categorical values and bitfields to give values in a file a certain meaning (classification). |
 | [Composite](https://github.com/stac-extensions/composite) | composite | Item | *WIP* | **Unreleased** | Defines how virtual assets can be composed from existing assets in STAC |
@@ -103,7 +103,7 @@ Below you can also find a list of extensions grouped by [maturity](#grouped-by-m
 | [Web Map Links](https://github.com/stac-extensions/web-map-links) | none, but each relat | Catalog, Collection, Item | Proposal | 1.2.0 | Allows to provide links to web maps for visualization purposes |
 | [xarray Assets](https://github.com/stac-extensions/xarray-assets) | xarray | Asset | Pilot | 1.0.0 | This extension helps users open STAC Assets with xarray. It gives a place for catalog maintainers to specify various required or recommended options. |
 
-* **Last updated:** Jan 15 2025, 01:11 
+* **Last updated:** Jan 16 2025, 01:10 
 * **Count:** 77
 
 ### Grouped by maturity
@@ -196,6 +196,8 @@ Below you can also find a list of extensions grouped by [maturity](#grouped-by-m
 
 * [CF](https://github.com/stac-extensions/cf)
 
+* [CMIP6](https://github.com/stac-extensions/cmip6)
+
 * [Contacts](https://github.com/stac-extensions/contacts)
 
 * [Disasters Charter](https://github.com/Terradue/stac-extensions-disaster)*
@@ -248,8 +250,6 @@ Below you can also find a list of extensions grouped by [maturity](#grouped-by-m
 * [Aerial Photography](https://github.com/linz/stac/tree/master/extensions/aerial-photo)*
 
 * [Archive](https://github.com/stac-extensions/archive)
-
-* [CMIP6](https://github.com/stac-extensions/cmip6)
 
 * [Camera](https://github.com/linz/stac/tree/master/extensions/camera)*
 
