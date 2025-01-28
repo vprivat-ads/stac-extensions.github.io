@@ -64,6 +64,7 @@ Below you can also find a list of extensions grouped by [maturity](#grouped-by-m
 | [Machine Learning Model Extension](https://github.com/stac-extensions/mlm) | mlm | Asset, Collection, Item, Links | Pilot | 1.3.0 | STAC Machine Learning Model (MLM) Extension to describe ML models, their training details, and inference runtime requirements. |
 | [Machine Learning Model Extension](https://github.com/crim-ca/mlm-extension)* | mlm | Asset, Collection, Item, Links | Pilot | 1.3.0 | Machine Learning Model STAC Extension (archive, see https://github.com/stac-extensions/mlm) |
 | [Military Grid Reference System](https://github.com/stac-extensions/mgrs) | mgrs | Item | Pilot | 1.0.0 | MGRS extension that provides information about the latitude band, grid square and UTM zone. |
+| [Moving Features](https://github.com/stac-extensions/moving-features) | mf | Item | *WIP* | **Unreleased** | stac extension for moving features |
 | [NOAA Geostationary Operational Environmental Satellite (GOES)](https://github.com/stac-extensions/goes) | goes | Collection, Item | Pilot | 1.0.0 | STAC Extension for NOAA GOES (Geostationary Operational Environmental Satellite) products |
 | [NOAA MRMS QPE](https://github.com/stac-extensions/noaa-mrms-qpe) | noaa_mrms_qpe | Collection, Item | Pilot | 1.0.0 | STAC Extension for NOAA MRMS QPE (Multi-Radar Multi-Sensor Quantitative Precipitation Estimation) products |
 | [Open Science Catalog](https://github.com/stac-extensions/osc) | osc | Catalog, Collection, Item | Proposal | 1.0.0-rc.3 | STAC Extension for the ESA Open Science Catalog |
@@ -103,8 +104,8 @@ Below you can also find a list of extensions grouped by [maturity](#grouped-by-m
 | [Web Map Links](https://github.com/stac-extensions/web-map-links) | none, but each relat | Catalog, Collection, Item | Proposal | 1.2.0 | Allows to provide links to web maps for visualization purposes |
 | [xarray Assets](https://github.com/stac-extensions/xarray-assets) | xarray | Asset | Pilot | 1.0.0 | This extension helps users open STAC Assets with xarray. It gives a place for catalog maintainers to specify various required or recommended options. |
 
-* **Last updated:** Jan 27 2025, 01:12 
-* **Count:** 77
+* **Last updated:** Jan 28 2025, 01:11 
+* **Count:** 78
 
 ### Grouped by maturity
 
@@ -260,6 +261,8 @@ Below you can also find a list of extensions grouped by [maturity](#grouped-by-m
 * [Film](https://github.com/linz/stac/tree/master/extensions/film)*
 
 * [Hyperspectral Imagery](https://github.com/stac-extensions/hsi)
+
+* [Moving Features](https://github.com/stac-extensions/moving-features)
 
 * [Scanning](https://github.com/linz/stac/tree/master/extensions/scanning)*
 
